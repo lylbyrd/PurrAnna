@@ -13,11 +13,10 @@
   box-shadow: 0 0 40px lightgrey;
 }
 h2{
-  padding: 20px;
   font-size: 60px;
   font-style: italic;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 15px;
+  margin: 15px auto;
   color:white;
   border: 20px double white;
   background-color: #3e93a8;
@@ -36,8 +35,26 @@ h2{
     width: 250px;
     border: 20px double #3e93a8;
     box-shadow: 0 0 40px #9c9536;
+
 }
 
+h3{
+  padding: 10px;
+  margin: 20px auto;
+  border: 15px double white;
+  background-color: #3e93a8;
+  box-shadow: 0 0 40px #9c9536;
+}
+
+a{
+  color: white;
+  font-size: 30px;
+  font-family: 'Chelsea Market', cursive;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  
+}
 
 @-webkit-keyframes glow {
   from {
