@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900|Montez);
+
+.annabox{
+/*  background-color: #ffe96b;*/
+  background: rgb(255,233,107);
+  background: radial-gradient(circle, rgba(255,233,107,1) 0%, rgba(255,255,128,1) 45%, rgba(255,255,179,1) 100%);
+  width: 750px;
+  padding: 50px;
+  border: 20px double #3e93a8;  
+  box-sizing: border-box;
+  margin: 40px auto;
+  text-align: center;
+  box-shadow: 0 0 40px lightgrey;
+}
+h2{
+  padding: 20px;
+  font-size: 60px;
+  font-style: italic;
+  padding: 20px;
+  margin: 0 auto;
+  color:white;
+  border: 20px double white;
+  background-color: #3e93a8;
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+  box-shadow: 0 0 40px #9c9536;
+}
+
+/*#3d97ad*/
+.annapic{
+  margin: 20px;
+  border-radius: 100px;
+    width: 250px;
+    border: 20px double #3e93a8;
+    box-shadow: 0 0 40px #9c9536;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #6be1ff, 0 0 40px #6be1ff, 0 0 50px #6be1ff, 0 0 60px #6be1ff, 0 0 70px #6be1ff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #6be1ff, 0 0 40px #6be1ff, 0 0 50px #6be1ff, 0 0 60px #6be1ff, 0 0 70px #6be1ff, 0 0 80px #6be1ff;
+  }
+}
+
